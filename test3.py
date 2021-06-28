@@ -64,11 +64,11 @@ if __name__ == "__main__":
     args = my_parser.parse_args()
 
     if args.env == "sb":
-        rundeck_url = "https://rundecksb.csgidev.com"
+        rundeck_url = "URL for SB"
     elif args.env == "np":
-        rundeck_url = "https://rundeck.csgidev.com"
+        rundeck_url = "URL for NP"
     elif args.env == "prod":
-        rundeck_url = "https://rundeck.csgiprod.com"
+        rundeck_url = "URL for prod"
     else:
         print("invalid environment")
         
@@ -86,8 +86,3 @@ if __name__ == "__main__":
         )
     
     main()
-    # token_id = rd.create_token(user=username)
-    # print(token_id)
-    #for k,v in token_id.items():
-       # if k == "id":
-       #     print(v)
