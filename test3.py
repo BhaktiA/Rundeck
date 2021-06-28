@@ -1,7 +1,6 @@
 from pyrundeck import Rundeck
 import argparse
 import warnings
-import sys
 import yaml
 import getpass
 
